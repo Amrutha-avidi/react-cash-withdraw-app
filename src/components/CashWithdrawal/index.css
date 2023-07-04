@@ -1,0 +1,82 @@
+/* Write your CSS here */
+.main-bg {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px;
+  align-items: center;
+}
+.card-bg {
+  display: flex;
+  flex-direction: column;
+  background-color: #150b3e;
+  border-radius: 10px;
+  padding: 50px;
+  width: 600px;
+  height: 600px;
+  background-size: cover;
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+}
+.name-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border-width: 0px;
+  color: #150b3e;
+  background-color: #c7d2fe;
+  margin-right: 20px;
+  width: 55px;
+  height: 55px;
+}
+.name {
+  color: #d4d2db;
+  font-size: 25px;
+}
+.amount-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.amount-card-head {
+  color: #585076;
+  font-size: 25px;
+}
+.amount-card-balance {
+  color: #d4d2db;
+  font-size: 30px;
+}
+.amount-card-para {
+  color: #585076;
+  font-size: 15px;
+}
+.withdraw-card {
+  display: flex;
+  flex-direction: column;
+}
+.withdraw-card-head {
+  color: #d4d2db;
+  font-size: 30px;
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+.withdraw-card-para {
+  color: #585076;
+  font-size: 20px;
+}
+.withdraw-card-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button-item {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
